@@ -34,6 +34,14 @@
 > print ("kleinste getal: ",min(nums))  
 
 - 2 getallen tussen 0 en 10(beide incl). Als minstens 1 van de 2 getalen 8 of hoger is druk dan "OK" af, met uitzondering dat als 1 van de 2 getallen 2 of lager is, druk dan "Niet OK" af. Als beide getallen tussen 2 en 8 zijn, druk dan "Bijna OK" af.
+>getal1= input("geef een getal1 in: ")  
+>getal2= input("geef een getal2 in: ")  
+>if getal1 <= 2 or getal2 <= 2:  
+>    print("niet OK!")  
+> elif getal1 >= 8 or getal2 >= 8:  
+>    print("OK!")  
+> elif getal1>2 and getal1<8 and getal2>2 and getal2<8:  
+>    print("bijna OK!")  
 
 ## While en For oefeningen
 
