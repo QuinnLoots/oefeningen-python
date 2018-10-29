@@ -5,16 +5,20 @@
 - Maak de oefeningen zodat je aan de gebruiker om invoer vraagt:
 
 - 2 getallen, druk "Gelijk" af als deze gelijk zijn anders "Niet gelijk".
-> getal1= input("geef getal 1: ")
-> getal2= input("geef getal 2: ")
-> if getal1 == getal2:
->    print("Gelijk!")
-> else:
->    print("Niet gelijk")
+> getal1= input("geef getal 1: ")  
+> getal2= input("geef getal 2: ")  
+> if getal1 == getal2:  
+>    print("Gelijk!")  
+> else:  
+>    print("Niet gelijk")  
 
-
-    
 - een getal tussen 50(inclusief) en 100(inclusief). Indien juist druk je "Ok" af anders "Niet Ok".
+> getal1= input("geef getal tussen 50 en 100: ")  
+> if getal1 >= 50 and getal1 <= 100 :  
+>    print("OK!")  
+> else:  
+>    print("Niet OK!")  
+
 - een getal en afdrukt of het even of oneven is.
 - 3 getallen en druk het kleinste getal af.
 - 2 getallen tussen 0 en 10(beide incl). Als minstens 1 van de 2 getalen 8 of hoger is druk dan "OK" af, met uitzondering dat als 1 van de 2 getallen 2 of lager is, druk dan "Niet OK" af. Als beide getallen tussen 2 en 8 zijn, druk dan "Bijna OK" af.
