@@ -20,6 +20,12 @@
 >    print("Niet OK!")  
 
 - een getal en afdrukt of het even of oneven is.
+> getal1= input("geef een getl in: ")  
+> if (getal1 % 2 == 0):  
+>    print("even")  
+> else:  
+>    print("oneven")  
+
 - 3 getallen en druk het kleinste getal af.
 - 2 getallen tussen 0 en 10(beide incl). Als minstens 1 van de 2 getalen 8 of hoger is druk dan "OK" af, met uitzondering dat als 1 van de 2 getallen 2 of lager is, druk dan "Niet OK" af. Als beide getallen tussen 2 en 8 zijn, druk dan "Bijna OK" af.
 
