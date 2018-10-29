@@ -20,13 +20,19 @@
 >    print("Niet OK!")  
 
 - een getal en afdrukt of het even of oneven is.
-> getal1= input("geef een getl in: ")  
+> getal1= input("geef een getal in: ")  
 > if (getal1 % 2 == 0):  
 >    print("even")  
 > else:  
 >    print("oneven")  
 
 - 3 getallen en druk het kleinste getal af.
+> getal1= input("geef een getal1 in: ")  
+> getal2= input("geef een getal2 in: ")  
+> getal3= input("geef een getal3 in: ")  
+> nums = [getal1, getal2, getal3]  
+> print ("kleinste getal: ",min(nums))  
+
 - 2 getallen tussen 0 en 10(beide incl). Als minstens 1 van de 2 getalen 8 of hoger is druk dan "OK" af, met uitzondering dat als 1 van de 2 getallen 2 of lager is, druk dan "Niet OK" af. Als beide getallen tussen 2 en 8 zijn, druk dan "Bijna OK" af.
 
 ## While en For oefeningen
